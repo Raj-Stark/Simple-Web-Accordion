@@ -20,7 +20,7 @@ const Question = ({ questionData }) => {
           )}
         </button>
       </header>
-      {showInfo ? <p>{info}</p> : " "}
+      {showInfo ? <p>{info}</p> : "  "}
     </article>
   );
 };
